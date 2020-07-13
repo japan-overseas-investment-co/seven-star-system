@@ -1,0 +1,87 @@
+p {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(139, 165, 210);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    float: left;
+}
+
+.nav-title {
+    color: white !important;
+}
+
+.nav-dark {
+    background-color: black !important;
+}
+
+body {
+    background-color: black;
+}
+
+#index img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#index div div {
+    display: block;
+    float: right;
+}
+
+.first {
+    padding-right: 40px;
+}
+
+.address-info {
+    margin-top: 80px;
+}
+
+.address-info p {
+    margin: 0;
+}
+
+.image-holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.image-holder div {
+    display: block;
+    width: 45%;
+}
+
+.image-holder div img {
+    display: block;
+    width: 100%;
+}
+
+.one {
+    margin-right: 2.5%;
+}
+
+.two {
+    margin-left: 2.5%;
+}
