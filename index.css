@@ -44,7 +44,7 @@ body {
     width: 80%;
 }
 
-#index div div {
+body div div {
     display: block;
     float: right;
 }
@@ -69,19 +69,32 @@ body {
 }
 
 .image-holder div {
-    display: block;
+    display: inline-block;
     width: 45%;
 }
 
 .image-holder div img {
-    display: block;
+    display: block;color: rgb(139, 165, 210);
     width: 100%;
 }
 
+.image-holder div div {
+    display: block;
+    width: 100%;
+    background-color: rgb(139, 165, 210);
+    min-height: 250px;
+}
+
 .one {
-    margin-right: 2.5%;
+    padding-left: 2.5%;
 }
 
 .two {
-    margin-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#page1 {
+    background-image: url("images/page1-background.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
